@@ -1,0 +1,71 @@
+.bd{
+    background-color: rgb(200, 250, 120);
+}
+.rb{
+    color: rgb(235, 146, 143);
+    padding-top: 20px;
+    font-size: 50px;
+}
+.container{
+    display: flex;
+    width: 90%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: o auto;
+    gap: 20px;
+    border-style: none;
+    padding-bottom: 40px;
+}
+.card-bg{
+    width: 260px;
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: none;
+}
+.contant{
+    position: absolute;
+    left: 0;
+    padding: 25px;
+
+}
+.card-categoires{
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(233, 77, 56);
+    
+}
+.card-heading{
+    font-size: 1.8rem;
+    color: rgb(13, 13, 14);
+}
+.card :hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    
+}
+.container:hover > .card:not(:hover) .card-bg{
+    filter: brightness(1) blur(25px);
+}
+.rb:hover{
+    color: rgb(243, 147, 30);
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.ze{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.ze:hover{
+    color: rgb(255, 6, 6);
+    transform: scale(1.1);
+}
